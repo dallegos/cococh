@@ -17,7 +17,11 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
       - run: yarn install
-      - run: yarn test
+      - run: yarn test --coverage
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
   publish-npm:
     needs: build
