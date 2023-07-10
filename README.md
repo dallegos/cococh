@@ -4,8 +4,10 @@
 
 ![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/dallegos/cococh/main?label=version)
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/dallegos/cococh/main.yml)
+[![codecov](https://codecov.io/gh/dallegos/cococh/branch/main/graph/badge.svg?token=SQY9HTTXOK)](https://codecov.io/gh/dallegos/cococh)
 ![GitHub](https://img.shields.io/github/license/dallegos/cococh)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/cococh?label=size)
+
 
 A set of tools for validating the color contrast based on WCAG 2.0 standard.
 
