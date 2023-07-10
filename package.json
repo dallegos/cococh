@@ -1,0 +1,36 @@
+{
+    "name": "cococh",
+    "version": "1.0.0",
+    "description": "Yet another simple color contrast validator based on the WCAG recommendations.",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dallegos/cococh.git"
+    },
+    "keywords": [
+        "wcag",
+        "accessibility",
+        "color",
+        "contrast",
+        "checker",
+        "validator"
+    ],
+    "author": {
+        "name": "David Gallegos",
+        "url": "https://github.com/dallegos"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dallegos/cococh/issues"
+    },
+    "homepage": "https://github.com/dallegos/cococh#readme",
+    "maintainers": [
+        {
+            "name": "dallegos",
+            "url": "https://github.com/dallegos"
+        }
+    ]
+}
