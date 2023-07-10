@@ -4,7 +4,7 @@
     "description": "Yet another simple color contrast validator based on the WCAG recommendations.",
     "main": "src/main.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "repository": {
         "type": "git",
@@ -22,7 +22,7 @@
         "name": "David Gallegos",
         "url": "https://github.com/dallegos"
     },
-    "license": "ISC",
+    "license": "Apache-2.0",
     "bugs": {
         "url": "https://github.com/dallegos/cococh/issues"
     },
@@ -32,5 +32,8 @@
             "name": "dallegos",
             "url": "https://github.com/dallegos"
         }
-    ]
+    ],
+    "devDependencies": {
+        "jest": "^29.6.1"
+    }
 }

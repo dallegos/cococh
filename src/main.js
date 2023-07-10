@@ -168,15 +168,16 @@ function convertRGBtoRGBObject(rgb) {
     const [_, r, g, b] = RGBRegex.exec(rgb);
 
     return {
-        r,
-        g,
-        b,
+        r: parseInt(r),
+        g: parseInt(g),
+        b: parseInt(b),
     };
 }
 
 module.exports = {
     RATIOS,
     getContrastRatios,
+    getRGBObject,
     convertHexToRgb,
     convertHSLToRgb,
     convertRGBtoRGBObject,
