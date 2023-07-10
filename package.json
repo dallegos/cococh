@@ -1,6 +1,6 @@
 {
     "name": "cococh",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Yet another simple color contrast validator based on the WCAG recommendations.",
     "main": "src/main.js",
     "scripts": {
