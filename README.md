@@ -7,35 +7,39 @@
 ![GitHub](https://img.shields.io/github/license/dallegos/cococh)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/cococh?label=size)
 
-
 A set of tools for validating the color contrast based on WCAG 2.0 standard.
 
 ## Installation
 
 Using `npm`
-```
+
+```bash
 npm i cococh@latest
 ```
 
 Using yarn
-```
+
+```bash
 yarn add cococh@latest
 ```
 
 or installing it manually on package.json
-```
+
+```json
 {
-    ...other configs,
+    //...otherConfigs,
     "dependencies": {
-        "cococh": "^1.1.0"
+        "cococh": "^1.2.0"
     }   
 }
 ```
+
 and then do `npm install` or `yarn install`
 
 ## Usage
+
 It is possible to use different color formats and combine them:
- 
+
 ```js
 // With rgb()
 const ratios = getContrastRatios("rgb(255, 0, 0)", "rgb(0, 0, 0)");
@@ -50,7 +54,7 @@ const ratios = getContrastRatios("hsl(0, 100%, 50%)", "rgb(0, 0, 0)");
 const ratios = getContrastRatios("#f00", "#000000");
 ```
 
-Any combination is valid and you're going to get an object like this:
+Any combination is valid, and you will receive an object like this:
 
 ```json
 {
@@ -88,11 +92,13 @@ if (ratios.normal.AA) {
 ## Test
 
 To test it use:
-```
+
+```bash
 yarn test
 ```
 
-or 
-```
+or
+
+```bash
 npm test
 ```
