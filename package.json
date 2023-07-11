@@ -1,6 +1,6 @@
 {
     "name": "cococh",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "Yet another simple color contrast validator based on the WCAG recommendations.",
     "main": "src/main.js",
     "scripts": {
@@ -35,5 +35,8 @@
     ],
     "devDependencies": {
         "jest": "^29.6.1"
+    },
+    "overrides": {
+        "semver": "^7.5.3"
     }
 }
